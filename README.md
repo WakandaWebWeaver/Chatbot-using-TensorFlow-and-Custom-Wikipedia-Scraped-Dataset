@@ -13,7 +13,7 @@
   ```
   python3 -m pip install --upgrade https://storage.googleapis.com/tensorflow/your-os/cpu/tensorflow-1.12.0-py3-none-any.whl
   ```
-
+- Check out this [SO post](https://stackoverflow.com/questions/38896424/tensorflow-not-found-using-pip) for more info
 
 #### Running the Script (run this file first, to ensure data.txt is updated)
 1. Clone the repository:
