@@ -25,16 +25,7 @@ def save_text_to_file(text, filename):
         file.write(text)
 
 articles_to_scrape = [
-    'Effective_Communication',
-    'Common_Idioms_and_Expressions',
-    'Social_and_Cultural_Norms',
-    'Classic_Literature_Extracts',
-    'Speechwriting_and_Rhetoric',
-    'Grammar_and_Syntax_Guides',
-    'Creative_Writing_Techniques',
-    'Famous_Speech_Transcripts',
-    'Interview_Transcripts',
-    'TED_Talks_Transcripts'
+    ''
 ]
 output_directory = 'scraped_data/'
 
