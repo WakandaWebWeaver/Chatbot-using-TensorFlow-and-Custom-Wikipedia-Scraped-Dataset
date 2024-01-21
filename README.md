@@ -1,4 +1,4 @@
-# Chatbot using TensorFlow and Custom Wikipedia-Scraped Dataset
+  # Chatbot using TensorFlow and Custom Wikipedia-Scraped Dataset
 
 
 ### Getting Started
@@ -35,18 +35,6 @@
    ```
    python train.py
    ```
-   
-During First time run, the program will train the model. This could take some time depending on whether you have a gpu or not.
 
-change the 
-```
-        model.fit(X, y, epochs=20, batch_size=64, callbacks=[checkpoint], verbose=1)
-```
 
-to make the process faster. 
-
-## Chatbot Usage
-
-- Ensure that the `data.txt` file is populated with relevant data.
-- Run the chatbot script (`train.py`) to train/run the chatbot model.
-- Interact with the chatbot by providing input when prompted.
+   Keep in mind that this is a crude version of what a practical chatbot might be. The program may fail to run, or in most cases, run without generating the required output.
